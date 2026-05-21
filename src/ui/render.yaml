@@ -1,0 +1,23 @@
+version: 2
+
+services:
+  - type: web
+    name: retail-store-ui
+    runtime: docker
+    dockerfilePath: ./Dockerfile
+    dockerContext: ./
+    envVars:
+      - key: PORT
+        value: 8080
+      - key: RETAIL_UI_ENDPOINTS_CATALOG
+        value: false
+      - key: RETAIL_UI_ENDPOINTS_CARTS
+        value: false
+      - key: RETAIL_UI_ENDPOINTS_ORDERS
+        value: false
+      - key: RETAIL_UI_ENDPOINTS_CHECKOUT
+        value: false
+      - key: RETAIL_UI_DISABLE_DEMO_WARNINGS
+        value: true
+      - key: RETAIL_UI_THEME
+        value: default

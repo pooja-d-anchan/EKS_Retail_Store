@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "pom.xml",
+      "use": "@vercel/java"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
+  "env": {
+    "RETAIL_UI_ENDPOINTS_CATALOG": "false",
+    "RETAIL_UI_ENDPOINTS_CARTS": "false",
+    "RETAIL_UI_ENDPOINTS_ORDERS": "false",
+    "RETAIL_UI_ENDPOINTS_CHECKOUT": "false",
+    "RETAIL_UI_DISABLE_DEMO_WARNINGS": "true"
+  }
+}

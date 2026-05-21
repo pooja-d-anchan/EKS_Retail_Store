@@ -114,3 +114,6 @@ certManager:
 
 podDisruptionBudget:
   enabled: false
+
+istio:
+  enabled: false

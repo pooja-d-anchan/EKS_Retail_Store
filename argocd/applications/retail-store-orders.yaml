@@ -8,7 +8,7 @@ metadata:
 spec:
   project: retail-store
   source:
-    repoURL: https://github.com/pooj-d-anchan/EKS_Retail_Store
+    repoURL: https://github.com/pooja-d-anchan/EKS_Retail_Store
     targetRevision: main
     path: src/orders/chart
     helm:

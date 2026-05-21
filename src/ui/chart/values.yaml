@@ -111,3 +111,6 @@ ingresses:
 
 certManager:
   createClusterIssuer: false
+
+podDisruptionBudget:
+  enabled: false

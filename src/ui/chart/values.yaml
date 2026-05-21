@@ -108,3 +108,6 @@ ingresses:
       nginx.ingress.kubernetes.io/proxy-send-timeout: "600"
       nginx.ingress.kubernetes.io/proxy-read-timeout: "600"
     tls: []
+
+certManager:
+  createClusterIssuer: false

@@ -120,3 +120,4 @@ istio:
 
 opentelemetry:
   enabled: false
+  instrumentation: ""
